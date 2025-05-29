@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Astha | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Astha Shukla</h1>
+      <p>💻 ECE @ ITGGV | Web Developer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        
+        <p>
+          Hi! I’m Astha — a 2nd-year Electronics & Communication Engineering student from ITGGV.  
+          I'm passionate about building things with code, exploring AI, and pushing my limits. 
+          I believe in learning by doing, and I’ve already tackled exciting tech problems across national-level competitions!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section bg-dark">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>📅 To-Do App (JS)</h3>
+          <p>A sleek and responsive JavaScript To-Do List with delete animations.</p>
+          <a href="https://github.com/your-username/todo-app-enhanced" target="_blank">View on GitHub →</a>
+        </div>
+        
+        <div class="project-card">
+          <h3>🌞 Smart Solar Tracker</h3>
+          <p>IoT-based dual-axis solar tracker designed & simulated with MATLAB + Arduino + sensors. Visualized in Simulink.</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2>🏆 Achievements</h2>
+      <ul class="achievements">
+        <li>🚀 Finalist – Smart India Hackathon 2024 (Hardware Edition)</li>
+        <li>🧠  Runner-Up: IOCL-SUSTAINATHON </li>
+        
+        
+        
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section bg-dark">
+    <div class="container">
+      <h2>📬 Contact Me</h2>
+      <p>Email: <a href="mailto:asthashukla189@gmail.com">asthashukla189@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/asthashukla189/" target="_blank">linkedin.com/in/asthashukla189</a></p>
+      <p>GitHub: <a href="https://github.com/asthashukla189" target="_blank">github.com/asthashukla189</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Astha Shukla • Made with ❤️</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
+</body>
+</html>
